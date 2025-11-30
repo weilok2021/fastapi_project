@@ -40,6 +40,7 @@ def replace(explorer: Explorer) -> Explorer:
     """Completely replace an explorer"""
     return explorer
 
+
 def delete(name: str) -> bool:
  """Delete an explorer; return None if it existed"""
  return None
