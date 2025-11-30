@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from fake import explorer as service
 
 router = APIRouter(prefix = "/explorer")
 
