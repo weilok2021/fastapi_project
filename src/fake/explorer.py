@@ -28,6 +28,7 @@ def get_one(name: str) -> Explorer | None:
 # the actual fake _explorers list:
 def create(explorer: Explorer) -> Explorer:
     """Add an explorer"""
+    _explorers.append(explorer)
     return explorer
 
 
