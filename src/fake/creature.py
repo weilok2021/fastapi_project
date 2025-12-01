@@ -32,6 +32,7 @@ def get_one(name: str) -> Creature | None:
 # the actual fake _creatures list:
 def create(creature: Creature) -> Creature:
     """Add an creature"""
+    _creatures.append(creature)
     return creature
 
 
